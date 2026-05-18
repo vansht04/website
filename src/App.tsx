@@ -83,7 +83,7 @@ function Navbar({ isDark, toggleTheme }: { isDark: boolean, toggleTheme: () => v
           animate={{ opacity: 1, x: 0 }}
           className="text-xl font-display font-bold tracking-tighter"
         >
-          VANSH.
+          Vansh Tejnani
         </motion.div>
         
         <div className={cn(
@@ -109,7 +109,7 @@ function Navbar({ isDark, toggleTheme }: { isDark: boolean, toggleTheme: () => v
           <a href="https://github.com/vansht04" target="_blank" rel="noreferrer">
             <Github className="w-4 h-4 cursor-pointer opacity-60 hover:opacity-100 transition-opacity" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/vansht/" target="_blank" rel="noreferrer">
             <Linkedin className="w-4 h-4 cursor-pointer opacity-60 hover:opacity-100 transition-opacity" />
           </a>
         </div>
@@ -165,7 +165,7 @@ function Hero({ isDark }: { isDark: boolean }) {
           <div className="text-left">
             <span className="section-label">Identity</span>
             <p className="text-lg font-medium opacity-80">Vansh Tejnani</p>
-            <p className="text-xs opacity-40">Software Craftsman</p>
+            <p className="text-xs opacity-40">Software Developer</p>
           </div>
           <div className="text-left">
             <span className="section-label">Specialization</span>
@@ -376,8 +376,8 @@ export default function App() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
               {[
-                { label: "Direct", title: "Email", href: "mailto:hello@tejnani.com", icon: <Mail className="w-4 h-4" /> },
-                { label: "Global", title: "LinkedIn", href: "https://linkedin.com", icon: <Linkedin className="w-4 h-4" /> },
+                { label: "Direct", title: "Email", href: "mailto:vanshbt@gmail.com", icon: <Mail className="w-4 h-4" /> },
+                { label: "Global", title: "LinkedIn", href: "https://www.linkedin.com/in/vansht/", icon: <Linkedin className="w-4 h-4" /> },
                 { label: "Source", title: "GitHub", href: "https://github.com/vansht04", icon: <Github className="w-4 h-4" /> }
               ].map((item, i) => (
                 <motion.div 
@@ -407,7 +407,7 @@ export default function App() {
           theme === 'dark' ? "border-white/5" : "border-black/5"
         )}>
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] uppercase tracking-[0.2em] font-bold opacity-30">
-            <div>© 2025 VANSH TEJNANI. ALL RIGHTS RESERVED.</div>
+            <div>© 2026 Vansh Tejnani. All Rights Reserved.</div>
             <div className="flex gap-8">
               <button onClick={() => openLegal('cookie')} className="cursor-pointer hover:opacity-100 transition-opacity">COOKIE POLICY</button>
               <button onClick={() => openLegal('privacy')} className="cursor-pointer hover:opacity-100 transition-opacity">PRIVACY POLICY</button>
