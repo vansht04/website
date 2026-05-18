@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased selection:bg-white selection:text-black transition-colors duration-500;
+  }
+
+  body.dark {
+    @apply bg-[#000000] text-[#FAFAFA];
+  }
+
+  body.light {
+    @apply bg-[#FBFBFB] text-[#1D1D1F];
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display tracking-tight font-semibold;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .glass-dark {
+    @apply bg-white/[0.03] backdrop-blur-2xl border border-white/[0.08];
+  }
+
+  .glass-light {
+    @apply bg-black/[0.03] backdrop-blur-2xl border border-black/[0.05];
+  }
+
+  .apple-button {
+    @apply px-6 py-3 rounded-full font-medium transition-all duration-300 active:scale-95;
+  }
+
+  .apple-button-primary {
+    @apply bg-[#0071E3] text-white hover:bg-[#0077ED] shadow-lg shadow-blue-500/20;
+  }
+
+  .section-label {
+    @apply text-[10px] uppercase tracking-[0.3em] font-bold opacity-40 mb-4 block;
+  }
+}
