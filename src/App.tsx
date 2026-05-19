@@ -131,7 +131,7 @@ const education = [
     school: "York University",
     location: "Toronto, ON",
     period: "2024 - 2028",
-    desc: "Specialized in Artificial Intelligence and Distributed Computing."
+    desc: "Focused on Full-Stack Development, Artificial Intelligence, and Machine Learning."
   }
 ];
 
