@@ -220,10 +220,10 @@ export default function App() {
             <div className="lg:col-span-7">
               <span className="section-label">The Vision</span>
               <h2 className="text-5xl md:text-6xl font-bold tracking-tight mb-10 leading-tight text-balance">
-                Crafting interfaces that feel as good as they look.
+                Designing The Future Of Computing
               </h2>
               <p className="opacity-60 text-xl leading-relaxed mb-10 text-balance">
-                I believe that software should be invisible. It should serve the user's intent with such fluidity that the barrier between thought and execution disappears. This is the standard I strive for.
+                Ideas should be brought to life in ways that create real impact. The goal is to build with clarity and structure — where things are fast, predictable, and hold up as they grow. Progress matters more than perfection, so the focus stays on shipping, learning, and improving through real work in production.
               </p>
               
               <div className="flex flex-wrap gap-2">
@@ -246,12 +246,12 @@ export default function App() {
                 <div className="absolute -top-10 -right-10 p-4 opacity-5 group-hover:opacity-10 transition-opacity rotate-12">
                   <Code2 className="w-60 h-60" />
                 </div>
-                <h3 className="text-2xl font-bold mb-6">Core Philosophy</h3>
+                <h3 className="text-2xl font-bold mb-6">Foundations</h3>
                 <ul className="space-y-6">
                   {[
-                    { t: "Performance First", d: "Zero compromise on latency." },
-                    { t: "Architectural Clarity", d: "Code that tells a story." },
-                    { t: "Human Centric", d: "Designed for real emotion." }
+                    { t: "Keep It Simple", d: "Simple ideas are always the strongest" },
+                    { t: "Build For Real Use", d: "Work that solves real problems real people have" },
+                    { t: "Keep Shipping", d: "Learn by building, not by planning" }
                   ].map((item, i) => (
                      <li key={i} className="flex gap-4">
                        <div className="w-1 h-1 rounded-full bg-[#0071E3] mt-2.5 shrink-0" />
