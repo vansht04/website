@@ -249,9 +249,9 @@ export default function App() {
                 <h3 className="text-2xl font-bold mb-6">Foundations</h3>
                 <ul className="space-y-6">
                   {[
-                    { t: "Keep It Simple", d: "Simple ideas are always the strongest" },
-                    { t: "Build For Real Use", d: "Work that solves real problems real people have" },
-                    { t: "Keep Shipping", d: "Learn by building, not by planning" }
+                    { t: "Keep It Simple", d: "Simple ideas are always the strongest." },
+                    { t: "Build For Real Use", d: "Work that solves real problems real people have." },
+                    { t: "Keep Shipping", d: "Learn by building, not by planning." }
                   ].map((item, i) => (
                      <li key={i} className="flex gap-4">
                        <div className="w-1 h-1 rounded-full bg-[#0071E3] mt-2.5 shrink-0" />
