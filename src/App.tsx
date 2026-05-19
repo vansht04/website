@@ -63,9 +63,9 @@ const experience = [
 
 const education = [
   {
-    degree: "B.S. in Computer Science",
-    school: "University of Technology",
-    period: "2020 - 2024",
+    degree: "Hons. B.S.c. in Computer Science",
+    school: "York University",
+    period: "2024 - 2028",
     desc: "Specialized in Artificial Intelligence and Distributed Computing."
   }
 ];
@@ -141,7 +141,7 @@ function Hero({ isDark }: { isDark: boolean }) {
             "px-4 py-1.5 rounded-full text-[10px] uppercase tracking-[0.3em] font-bold border transition-all duration-500",
             isDark ? "border-white/10 bg-white/5" : "border-black/5 bg-black/5"
           )}>
-            Built Different
+            One & Only
           </span>
         </motion.div>
         
@@ -162,15 +162,15 @@ function Hero({ isDark }: { isDark: boolean }) {
           transition={{ duration: 2, delay: 0.6 }}
           className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20"
         >
-          <div className="text-left">
-            <span className="section-label">Identity</span>
-            <p className="text-lg font-medium opacity-80">Vansh Tejnani</p>
-            <p className="text-xs opacity-40">Software Developer</p>
-          </div>
-          <div className="text-left">
+          <div className="text-center">
             <span className="section-label">Specialization</span>
-            <p className="text-lg font-medium opacity-80">Full-Stack Architecture</p>
-            <p className="text-xs opacity-40">React • Distributed Systems</p>
+            <p className="text-lg font-medium opacity-80">Full-Stack Developer</p>
+            <p className="text-xs opacity-40">Machine Learning • Artificial Intelligence <br />
+              Frontend Development • Backend Development <br />
+              Cloud Infrastructure • Distributed Systems <br />
+              Systems Optimization • System Design <br />
+              Anything Cool
+            </p>
           </div>
         </motion.div>
       </motion.div>
