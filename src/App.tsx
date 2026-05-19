@@ -264,7 +264,7 @@ export default function App() {
                 <div className="mt-12 pt-10 border-t border-white/5 flex items-center justify-between">
                   {/* Stats or subtle details */}
                   <div className="text-[10px] uppercase font-bold opacity-30">Status: Active</div>
-                  <div className="text-[10px] uppercase font-bold opacity-30">Loc: SF / Remote</div>
+                  <div className="text-[10px] uppercase font-bold opacity-30">Loc: Toronto, ON</div>
                 </div>
               </div>
             </div>
