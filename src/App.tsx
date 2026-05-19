@@ -92,35 +92,35 @@ const experience = [
     role: "Software Engineer",
     company: "Learncapes Consulting Inc · Internship",
     period: "2026 - Present",
-    location: "Markham · Remote",
+    location: "Markham, ON · Remote",
     desc: "Building an Augmented Reality app for interactive product visualization with 3D models."
   },
   {
     role: "Technical Lead",
     company: "Riipen · Internship",
     period: "2026",
-    location: "Toronto · Remote",
+    location: "Toronto, ON · Remote",
     desc: "Built analytics pipelines and event tracking systems across 10+ event types to improve product insights and user behavior analysis."
   },
   {
     role: "Project Lead",
     company: "Riipen · Internship",
     period: "2026",
-    location: "Ottawa · Remote",
+    location: "Ottawa, ON · Remote",
     desc: "Optimized React performance and user flows, boosting engagement by 25% and conversion rates by 10%."
   },
   {
     role: "Judge & Mentor",
     company: "Ctrl Hack Del 2.0",
     period: "2026",
-    location: "Markham",
+    location: "Markham, ON",
     desc: "Evaluated and mentored 20+ projects based on system design, scalability, and implementation quality."
   },
   {
     role: "Youth In Policing Student",
     company: "Peel Regional Police · Internship",
     period: "2023",
-    location: "Brampton",
+    location: "Brampton, ON",
     desc: "Collaborated across multiple law enforcement units, delivering accurate, compliant reports under strict deadlines."
   },
 ];
@@ -129,6 +129,7 @@ const education = [
   {
     degree: "Hons. B.S.c. in Computer Science",
     school: "York University",
+    location: "Toronto, ON",
     period: "2024 - 2028",
     desc: "Specialized in Artificial Intelligence and Distributed Computing."
   }
@@ -423,7 +424,8 @@ export default function App() {
                        <span className="text-xs font-bold opacity-30 uppercase tracking-widest">{edu.period}</span>
                      </div>
                      <h4 className="text-2xl font-bold mb-1 tracking-tight">{edu.degree}</h4>
-                     <p className="text-sm opacity-60 mb-3">{edu.school}</p>
+                     <p className="text-sm opacity-60 mb-1">{edu.school}</p>
+                     <p className="text-sm opacity-60 mb-3">{edu.location}</p>
                      <p className="text-sm opacity-40 max-w-sm ml-auto md:ml-0 leading-relaxed">{edu.desc}</p>
                    </motion.div>
                  ))}
