@@ -71,7 +71,7 @@ const education = [
 ];
 
 const skills = [
-  "React / Next.js", "TypeScript", "Node.js", "Python", "Kubernetes", "AWS", "Three.js", "PostgreSQL"
+  "React / Next.js", "TypeScript", "Node.js", "Python", "Java", "AWS", "Three.js", "SQL", "HTML/CSS", "Docker", "Firebase", "C++"
 ];
 
 function Navbar({ isDark, toggleTheme }: { isDark: boolean, toggleTheme: () => void }) {
@@ -91,8 +91,8 @@ function Navbar({ isDark, toggleTheme }: { isDark: boolean, toggleTheme: () => v
           isDark ? "glass-dark border-white/10" : "glass-light border-black/5"
         )}>
           <a href="#about" className="hover:opacity-60 transition-opacity">About</a>
-          <a href="#projects" className="hover:opacity-60 transition-opacity">Work</a>
-          <a href="#experience" className="hover:opacity-60 transition-opacity">Exp</a>
+          <a href="#projects" className="hover:opacity-60 transition-opacity">Projects</a>
+          <a href="#experience" className="hover:opacity-60 transition-opacity">Experience</a>
           <a href="#contact" className="hover:opacity-60 transition-opacity">Contact</a>
         </div>
 
@@ -141,7 +141,7 @@ function Hero({ isDark }: { isDark: boolean }) {
             "px-4 py-1.5 rounded-full text-[10px] uppercase tracking-[0.3em] font-bold border transition-all duration-500",
             isDark ? "border-white/10 bg-white/5" : "border-black/5 bg-black/5"
           )}>
-            Available for Q3 2025
+            Built Different
           </span>
         </motion.div>
         
@@ -152,8 +152,8 @@ function Hero({ isDark }: { isDark: boolean }) {
           className="text-[12vw] md:text-[10vw] font-bold leading-[0.85] tracking-tighter mb-12 text-balance"
         >
           BUILDING <br />
-          <span className={isDark ? "text-white/20" : "text-black/10"}>DIGITAL</span><br />
-          POETRY.
+          <span className={isDark ? "text-white/20" : "text-black/10"}>THE</span><br />
+          FUTURE
         </motion.h1>
 
         <motion.div
