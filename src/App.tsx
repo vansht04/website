@@ -13,7 +13,13 @@ import {
   Moon,
   ChevronRight,
   GraduationCap,
-  Briefcase
+  Briefcase,
+  House,
+  Flower,
+  Dumbbell,
+  Radical,
+  Turtle,
+  Lightbulb
 } from 'lucide-react';
 import {useRef, useState, useEffect} from 'react';
 import Background from './components/Background';
@@ -24,26 +30,61 @@ import {cn} from '@/src/lib/utils';
 
 const projects = [
   {
-    title: "EcoSphere AI",
-    category: "AI & Sustainability",
-    description: "Machine learning platform for predicting urban ecological shifts using satellite imagery.",
+    title: "York Return",
+    category: "React, TypeScript, Firebase, Google OAuth",
+    description: "York's most secure Lost & Found app made with React and Firebase, featuring Google login, real-time updates, and synchronized data across multiple users.",
     icon: <Globe className="w-5 h-5" />,
     color: "from-blue-500/20 to-cyan-500/20"
   },
   {
-    title: "Nexus OS",
-    category: "Distributed Systems",
-    description: "Cloud-native operating system abstraction for multi-cloud deployments with zero-trust security.",
+    title: "MyAI",
+    category: "Node.js, React, TypeScript, OpenAI API",
+    description: "An AI-powered workflow automation platform that integrates conversational intelligence, personalized recommendations, and real-time productivity tools to streamline user interactions.",
     icon: <Cpu className="w-5 h-5" />,
     color: "from-purple-500/20 to-pink-500/20"
   },
   {
-    title: "Quantum Dashboard",
-    category: "Data Visualization",
-    description: "Real-time analytics engine visualizing high-frequency data streams across global sub-stations.",
-    icon: <Layout className="w-5 h-5" />,
+    title: "Relocate Right",
+    category: "Java, SQL, React, OpenStreetMap API",
+    description: "A location recommendation system for 300+ entries using a weighted scoring model and SQL database to support ranked search results and filtering logic.",
+    icon: <House className="w-5 h-5" />,
     color: "from-orange-500/20 to-red-500/20"
-  }
+  },
+  {
+    title: "BloomLoop",
+    category: "React, Firebase, TypeScript",
+    description: "BloomLoop is a habit tracking app with dashboards, streak tracking, and progress visualization.",
+    icon: <Flower className="w-5 h-5" />,
+    color: "from-orange-500/20 to-red-500/20"
+  },
+  {
+    title: "Active+",
+    category: "JavaScript, React, HTML, Node.js, WebStorage API",
+    description: "Active+ is a local-first fitness app to manage exercises, build workouts, track strength and cardio performance, and personalize profiles with themes.",
+    icon: <Dumbbell className="w-5 h-5" />,
+    color: "from-orange-500/20 to-red-500/20"
+  },
+  {
+    title: "Quadratic Nerds",
+    category: "Python, Processing",
+    description: "Interactive math game designed for Grade 10 students to learn and practice factoring and quadratics.",
+    icon: <Radical className="w-5 h-5" />,
+    color: "from-orange-500/20 to-red-500/20"
+  },
+  {
+    title: "Turtle Race",
+    category: "Python, Turtle.py",
+    description: "A real-time race simulation featuring turtles made in Python's Turtle graphics library, showcasing object-oriented programming and dynamic animations.",
+    icon: <Turtle className="w-5 h-5" />,
+    color: "from-orange-500/20 to-red-500/20"
+  },
+  {
+    title: "Animated Party Lights",
+    category: "Python",
+    description: "A colorful animated light show built with Python, featuring dynamic patterns and smooth transitions to create a cool visual experience.",
+    icon: <Lightbulb className="w-5 h-5" />,
+    color: "from-orange-500/20 to-red-500/20"
+  },
 ];
 
 const experience = [
@@ -277,7 +318,7 @@ export default function App() {
                 <span className="section-label">Selected Works</span>
                 <h2 className="text-6xl md:text-8xl font-bold tracking-tighter">PROJECTS</h2>
               </div>
-              <div className="text-xs font-bold opacity-30 tracking-[0.2em]">01 — 03</div>
+              <div className="text-xs font-bold opacity-30 tracking-[0.2em]">01 — 08</div>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
