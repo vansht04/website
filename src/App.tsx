@@ -71,7 +71,8 @@ const education = [
 ];
 
 const skills = [
-  "React / Next.js", "TypeScript", "Node.js", "Python", "Java", "AWS", "Three.js", "SQL", "HTML/CSS", "Docker", "Firebase", "C++"
+  "React / Next.js", "TypeScript", "Node.js", "Python", "Java", "AWS", "Three.js", "SQL", "HTML/CSS", "Docker", "Firebase", "Supabase", "C++", 
+  "C++", "R", "MongoDB", "Tailwind CSS", "Framer Motion", "Git"
 ];
 
 function Navbar({ isDark, toggleTheme }: { isDark: boolean, toggleTheme: () => void }) {
