@@ -54,7 +54,7 @@ export default function LegalModal({ isOpen, onClose, type }: LegalModalProps) {
                 {content[type].body}
               </p>
               <p className="text-white/40 mt-4 text-xs">
-                Last Updated: May 2026. This is a demonstration of a legal policy page for a professional portfolio.
+                Last Updated: May 2026.
               </p>
             </div>
           </motion.div>
