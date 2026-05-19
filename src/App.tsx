@@ -89,17 +89,40 @@ const projects = [
 
 const experience = [
   {
-    role: "Senior Frontend Engineer",
-    company: "TechNova Solutions",
-    period: "2023 - Present",
-    desc: "Leading the core UI team in rebuilding the design system for enterprise-scale platforms."
+    role: "Software Engineer",
+    company: "Learncapes Consulting Inc · Internship",
+    period: "2026 - Present",
+    location: "Markham · Remote",
+    desc: "Building an Augmented Reality app for interactive product visualization with 3D models."
   },
   {
-    role: "Software Engineering Intern",
-    company: "Global Systems Inc.",
-    period: "Summers 2022",
-    desc: "Optimized backend microservices, reducing data latency by 45% using gRPC."
-  }
+    role: "Technical Lead",
+    company: "Riipen · Internship",
+    period: "2026",
+    location: "Toronto · Remote",
+    desc: "Built analytics pipelines and event tracking systems across 10+ event types to improve product insights and user behavior analysis."
+  },
+  {
+    role: "Project Lead",
+    company: "Riipen · Internship",
+    period: "2026",
+    location: "Ottawa · Remote",
+    desc: "Optimized React performance and user flows, boosting engagement by 25% and conversion rates by 10%."
+  },
+  {
+    role: "Judge & Mentor",
+    company: "Ctrl Hack Del 2.0",
+    period: "2026",
+    location: "Markham",
+    desc: "Evaluated and mentored 20+ projects based on system design, scalability, and implementation quality."
+  },
+  {
+    role: "Youth In Policing Student",
+    company: "Peel Regional Police · Internship",
+    period: "2023",
+    location: "Brampton",
+    desc: "Collaborated across multiple law enforcement units, delivering accurate, compliant reports under strict deadlines."
+  },
 ];
 
 const education = [
@@ -374,7 +397,8 @@ export default function App() {
                        <span className="text-xs font-bold opacity-30 uppercase tracking-widest">{exp.period}</span>
                      </div>
                      <h4 className="text-2xl font-bold mb-1 tracking-tight">{exp.role}</h4>
-                     <p className="text-sm opacity-60 mb-3">{exp.company}</p>
+                     <p className="text-md font-bold mb-1">{exp.company}</p>
+                     <p className="text-sm opacity-60 mb-3">{exp.location}</p>
                      <p className="text-sm opacity-40 max-w-sm leading-relaxed">{exp.desc}</p>
                    </motion.div>
                  ))}
