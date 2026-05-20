@@ -372,7 +372,7 @@ export default function App() {
                     {project.description}
                   </p>
                   <div className="flex items-center gap-2 text-xs font-bold tracking-wider opacity-0 group-hover:opacity-100 transition-all translate-y-4 group-hover:translate-y-0">
-                    VIEW CASE STUDY <ArrowUpRight className="w-4 h-4" />
+                    CHECK IT OUT <ArrowUpRight className="w-4 h-4" />
                   </div>
                 </motion.div>
               ))}
