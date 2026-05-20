@@ -231,7 +231,7 @@ function Hero({ isDark }: { isDark: boolean }) {
           <div className="text-center">
             <span className="section-label">Specialization</span>
             <p className="text-lg font-medium opacity-80">Full-Stack Developer</p>
-            <p className="text-xs opacity-40">Machine Learning • Artificial Intelligence <br />
+            <p className="text-md opacity-40">Machine Learning • Artificial Intelligence <br />
               Frontend Development • Backend Development <br />
               Cloud Infrastructure • Distributed Systems <br />
               Systems Optimization • System Design <br />
