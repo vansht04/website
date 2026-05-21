@@ -382,7 +382,7 @@ export default function App() {
                   <p className="opacity-50 text-sm leading-relaxed mb-auto text-balance">
                     {project.description}
                   </p>
-                  <div className="flex items-center gap-2 text-xs font-bold tracking-wider opacity-0 group-hover:opacity-100 transition-all translate-y-4 group-hover:translate-y-0">
+                  <div className="absolute bottom-10 left-10 flex items-center gap-2 text-xs font-bold tracking-wider opacity-0 group-hover:opacity-100 transition-all translate-y-4 group-hover:translate-y-0">
                     Learn More <ArrowUpRight className="w-4 h-4" />
                   </div>
                 </motion.a>
