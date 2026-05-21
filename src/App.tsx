@@ -34,56 +34,64 @@ const projects = [
     category: "React, TypeScript, Firebase, Google OAuth",
     description: "York's most secure Lost & Found app made with React and Firebase, featuring Google login, real-time updates, and synchronized data across multiple users.",
     icon: <Globe className="w-5 h-5" />,
-    color: "from-blue-500/20 to-cyan-500/20"
+    color: "from-blue-500/20 to-cyan-500/20",
+    link: "https://github.com/vansht04/York-Return"
   },
   {
     title: "MyAI",
     category: "Node.js, React, TypeScript, OpenAI API",
     description: "An AI-powered workflow automation platform that integrates conversational intelligence, personalized recommendations, and real-time productivity tools to streamline user interactions.",
     icon: <Cpu className="w-5 h-5" />,
-    color: "from-purple-500/20 to-pink-500/20"
+    color: "from-purple-500/20 to-pink-500/20",
+    link: "https://github.com/vansht04/MyAI---Personal-AI-Chatbot"
   },
   {
     title: "Relocate Right",
     category: "Java, SQL, React, OpenStreetMap API",
     description: "A location recommendation system for 300+ entries using a weighted scoring model and SQL database to support ranked search results and filtering logic.",
     icon: <House className="w-5 h-5" />,
-    color: "from-orange-500/20 to-red-500/20"
+    color: "from-orange-500/20 to-red-500/20",
+    link: "https://github.com/vansht04/Relocate-Right---Full-Stack-Location-Recommendation-App"
   },
   {
     title: "BloomLoop",
     category: "React, Firebase, TypeScript",
     description: "BloomLoop is a habit tracking app with dashboards, streak tracking, and progress visualization.",
     icon: <Flower className="w-5 h-5" />,
-    color: "from-orange-500/20 to-red-500/20"
+    color: "from-orange-500/20 to-red-500/20",
+    link: "https://github.com/vansht04/BloomLoop---Social-Habit-Tracking-App"
   },
   {
     title: "Active+",
     category: "JavaScript, React, HTML, Node.js, WebStorage API",
     description: "Active+ is a local-first fitness app to manage exercises, build workouts, track strength and cardio performance, and personalize profiles with themes.",
     icon: <Dumbbell className="w-5 h-5" />,
-    color: "from-orange-500/20 to-red-500/20"
+    color: "from-orange-500/20 to-red-500/20",
+    link: "https://github.com/vansht04/Active-Plus"
   },
   {
     title: "Quadratic Nerds",
     category: "Python, Processing",
     description: "Interactive math game designed for Grade 10 students to learn and practice factoring and quadratics.",
     icon: <Radical className="w-5 h-5" />,
-    color: "from-orange-500/20 to-red-500/20"
+    color: "from-orange-500/20 to-red-500/20",
+    link: "https://github.com/vansht04/Quadratic-Nerds"
   },
   {
     title: "Turtle Race",
     category: "Python, Turtle.py",
     description: "A real-time race simulation featuring turtles made in Python's Turtle graphics library, showcasing object-oriented programming and dynamic animations.",
     icon: <Turtle className="w-5 h-5" />,
-    color: "from-orange-500/20 to-red-500/20"
+    color: "from-orange-500/20 to-red-500/20",
+    link: "https://github.com/vansht04/Real-Time-Turtle-Race-Simulation"
   },
   {
     title: "Animated Party Lights",
     category: "Python",
     description: "A colorful animated light show built with Python, featuring dynamic patterns and smooth transitions to create a cool visual experience.",
     icon: <Lightbulb className="w-5 h-5" />,
-    color: "from-orange-500/20 to-red-500/20"
+    color: "from-orange-500/20 to-red-500/20",
+    link: "https://github.com/vansht04/Animated-Party-Lights-Visualization"
   },
 ];
 
@@ -347,12 +355,15 @@ export default function App() {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {projects.map((project, i) => (
-                <motion.div
+                <motion.a
                   key={project.title}
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
                   whileHover={{ y: -15, scale: 1.02 }}
                   transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
                   className={cn(
-                    "group relative p-10 rounded-[3rem] border flex flex-col h-[500px] transition-all duration-500",
+                    "group relative p-10 rounded-[3rem] border flex flex-col h-[500px] transition-all duration-500 cursor-pointer block",
                     theme === 'dark' ? "glass-dark border-white/10" : "glass-light border-black/5 shadow-sm"
                   )}
                 >
@@ -374,7 +385,7 @@ export default function App() {
                   <div className="flex items-center gap-2 text-xs font-bold tracking-wider opacity-0 group-hover:opacity-100 transition-all translate-y-4 group-hover:translate-y-0">
                     Learn More <ArrowUpRight className="w-4 h-4" />
                   </div>
-                </motion.div>
+                </motion.a>
               ))}
             </div>
           </Section>
