@@ -39,7 +39,7 @@ const projects = [
   },
   {
     title: "MyAI",
-    category: "Node.js, React, TypeScript, OpenAI API",
+    category: "Node.js, React, TypeScript",
     description: "An AI-powered workflow automation platform that integrates conversational intelligence, personalized recommendations, and real-time productivity tools to streamline user interactions.",
     icon: <Cpu className="w-5 h-5" />,
     color: "from-purple-500/20 to-pink-500/20",
