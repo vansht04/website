@@ -97,6 +97,13 @@ const projects = [
 
 const experience = [
   {
+    role: "Software Developer",
+    company: "The Royal Canadian Legion · Internship",
+    period: "2026 - Present",
+    location: "Ottawa, ON · Remote",
+    desc: "Incoming Summer 26'."
+  },
+  {
     role: "Software Engineer",
     company: "Learncapes Consulting Inc · Internship",
     period: "2026 - Present",
