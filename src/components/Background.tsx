@@ -60,7 +60,7 @@ function Crystal({ isDark }: { isDark: boolean }) {
         
         {/* Inner Refractive Core - Complex multi-dimensional reflection */}
         <mesh ref={innerMesh}>
-          <octahedronGeometry args={[2, 0]} />
+          <octahedronGeometry args={[1.8, 1]} />
           <MeshTransmissionMaterial 
             {...glassProps} 
             resolution={256} // Lower resolution for inner core keeps performance smooth
