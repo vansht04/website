@@ -5,9 +5,7 @@ import {MeshTransmissionMaterial, Float, Environment} from '@react-three/drei';
 import {cn} from '@/src/lib/utils';
 
 function Crystal({ isDark }: { isDark: boolean }) {
-  const mesh = useRef<THREE.Group>(null!);
-  const innerMesh = useRef<THREE.Mesh>(null!);
-  const outerMesh = useRef<THREE.Mesh>(null!);
+  const mesh = useRef<THREE.Mesh>(null!);
   
   useFrame((state) => {
     const t = state.clock.getElapsedTime();
@@ -21,24 +19,18 @@ function Crystal({ isDark }: { isDark: boolean }) {
       // Gentle horizontal swaying for a fluid feel
       mesh.current.position.x = Math.sin(t * 0.4) * 1.5;
     }
-
-    if (innerMesh.current && outerMesh.current) {
-      // Counter-rotation for the inner core to create complex refractions
-      innerMesh.current.rotation.y = -t * 0.3;
-      innerMesh.current.rotation.z = t * 0.2;
-    }
   });
 
   const glassProps = {
     backside: true,
-    samples: 8, // Balanced sample count for peak frame rate and sharp detail
-    resolution: 512, // Smart buffer resolution for speed
-    thickness: isDark ? 4 : 6,
+    samples: 16, // High sample density for pristine details on the single shape
+    resolution: 512, // Smart buffer resolution for speed and quality
+    thickness: isDark ? 5 : 7, // Slightly thicker single shape for enhanced premium depth
     roughness: 0,
-    chromaticAberration: 0.15,
-    anisotropy: 0.6,
-    distortion: 0.3,
-    distortionScale: 0.5,
+    chromaticAberration: 0.18, // Extra dispersion detail
+    anisotropy: 0.8,
+    distortion: 0.35,
+    distortionScale: 0.55,
     temporalDistortion: 0.4,
     ior: 1.8, // Premium glass index of refraction
     transmission: 1,
@@ -51,28 +43,10 @@ function Crystal({ isDark }: { isDark: boolean }) {
 
   return (
     <Float speed={2} rotationIntensity={0.6} floatIntensity={0.8}>
-      <group ref={mesh}>
-        {/* Outer Complex Shell */}
-        <mesh ref={outerMesh}>
-          <torusKnotGeometry args={[3.2, 0.9, 128, 24, 7, 3]} />
-          <MeshTransmissionMaterial {...glassProps} transparent opacity={isDark ? 0.32 : 0.42} />
-        </mesh>
-        
-        {/* Inner Refractive Core - Complex multi-dimensional reflection */}
-        <mesh ref={innerMesh}>
-          <sphereGeometry args={[1.6, 64, 64]} />
-          <MeshTransmissionMaterial 
-            {...glassProps} 
-            resolution={256} // Lower resolution for inner core keeps performance smooth
-            samples={4}
-            thickness={2} 
-            ior={2.4} // Higher diamond-like refraction for the inner core
-            chromaticAberration={0.3}
-            transparent 
-            opacity={isDark ? 0.4 : 0.5} 
-          />
-        </mesh>
-      </group>
+      <mesh ref={mesh}>
+        <torusKnotGeometry args={[3.2, 0.9, 128, 24, 7, 3]} />
+        <MeshTransmissionMaterial {...glassProps} transparent opacity={isDark ? 0.32 : 0.42} />
+      </mesh>
     </Float>
   );
 }
