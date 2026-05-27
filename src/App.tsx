@@ -233,7 +233,7 @@ function Hero({ isDark }: { isDark: boolean }) {
           className="text-[12vw] md:text-[10vw] font-bold leading-[0.85] tracking-tighter mb-12 text-balance"
         >
           BUILDING <br />
-          <span className={isDark ? "text-white/20" : "text-black/10"}>THE</span><br />
+          <span className={isDark ? "text-white/50" : "text-black/40"}>THE</span><br />
           FUTURE
         </motion.h1>
 
