@@ -4,7 +4,7 @@
 
 > ✨ Liquid glass themed portfolio built with React, Three.js, Motion, and Tailwind CSS
 
-### 🌊 Liquid Glass UI · 🎮 Interactive 3D · ⚡ Smooth Motion
+### 🌊 Liquid Glass UI · 🎮 Interactive · ⚡ Smooth Motion
 
 **🚀 Live →** https://vansht.vercel.app/
 
@@ -23,7 +23,7 @@
 
 A personal portfolio built around a **liquid glass aesthetic** — soft blur, depth, transparency, and motion.
 
-It’s designed to feel less like a static resume and more like an interactive space where projects live.
+It’s designed to feel less like a static portfolio and more like an interactive space where projects live.
 
 Minimal, but not boring.
 
@@ -107,11 +107,11 @@ npm run preview
 
 ## 🧠 Inspiration
 
-Inspired by modern **glassmorphism**, experimental UI design, and motion-first web experiences.
+Inspired by modern **liquid glass**, experimental UI design, and motion-first web experiences.
 
 The goal was simple:
 
-> build something that feels smooth, light, and a little alive ✨
+> build something that no one has ever built
 
 ---
 
