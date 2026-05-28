@@ -99,7 +99,7 @@ npm run preview
 
 <div align="center">
 
-<img width="100%" alt="Portfolio Preview" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="100%" alt="Portfolio Preview" src="https://github.com/user-attachments/assets/9a4bf9cc-7ae5-4b37-bde0-3f4b163ce63c" />
 
 </div>
 
