@@ -2,11 +2,11 @@
 
 # Vansh Tejnani · Portfolio
 
-> Modern interactive developer portfolio built with React, Three.js, Motion, and Tailwind CSS.
+> Liquid glass themed portfolio built with React, Three.js, Motion, and Tailwind CSS.
 
-### ✦ Smooth Animations · ✦ Interactive 3D · ✦ Modern UI/UX
+### ✦ Liquid Glass UI · ✦ Interactive 3D · ✦ Smooth Motion
 
-**Live Website →** https://vansht.vercel.app/
+**Live →** https://vansht.vercel.app/
 
 <br/>
 
@@ -19,35 +19,27 @@
 
 ---
 
-# ✨ About
+## About
 
-A modern portfolio experience designed to showcase my projects, frontend engineering skills, and creative web development work through immersive visuals, fluid interactions, and responsive design.
+A modern portfolio focused on clean visuals, fluid interactions, and immersive frontend experiences.
 
-Built with a focus on:
-
-- performance
-- smooth user experience
-- modern UI aesthetics
-- interactive visuals
-- scalable frontend architecture
-- liquid glass effects
+The site combines liquid glass effects, smooth motion, and interactive 3D elements to create a minimal but visually rich browsing experience across all devices.
 
 ---
 
-# 🚀 Features
+## Features
 
-- 🎨 Liquid Glass UI
+- ✨ Liquid glass interface
 - ⚡ Smooth scrolling with Lenis
-- 🌌 Interactive 3D graphics
-- ✨ Motion-powered animations
-- 📱 Mobile-first experience
+- 🌌 Interactive 3D backgrounds
+- 🎞 Motion-powered animations
+- 📱 Responsive design
 - 🧩 Reusable component architecture
-- 🎯 Optimized performance
-- 🌙 Clean and minimal design
+- 🎯 Performance-focused frontend
 
 ---
 
-# 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -55,14 +47,14 @@ Built with a focus on:
 | Build Tool | Vite 6 |
 | Language | TypeScript |
 | Styling | Tailwind CSS 4 |
-| Animations | Motion + Lenis |
-| 3D Graphics | Three.js + React Three Fiber |
+| Animation | Motion + Lenis |
+| 3D | Three.js + React Three Fiber |
 | Icons | Lucide React |
 | Deployment | Vercel |
 
 ---
 
-# 📂 Project Structure
+## Project Structure
 
 ```bash
 src/
@@ -82,41 +74,31 @@ src/
 
 ---
 
-# ⚡ Quick Start
+## Quick Start
 
-## Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/vansht04/website.git
 ```
 
-## Navigate into the project
-
-```bash
-cd website
-```
-
-## Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-## Start development server
+### Start the development server
 
 ```bash
 npm run dev
 ```
 
-Open:
-
-```bash
-http://localhost:3000
-```
+Open `http://localhost:3000`
 
 ---
 
-# 📦 Build
+## Build
 
 ```bash
 npm run build
@@ -125,13 +107,7 @@ npm run preview
 
 ---
 
-# 🌍 Deployment
-
-Deployed on **Vercel** with automatic deployments connected to the main branch.
-
----
-
-# 📸 Preview
+## Preview
 
 <div align="center">
 
@@ -141,12 +117,12 @@ Deployed on **Vercel** with automatic deployments connected to the main branch.
 
 ---
 
-# 🧠 Inspiration
+## Deployment
 
-This portfolio was built to blend modern frontend engineering with immersive digital experiences — combining smooth interactions, motion design, and interactive visuals into a clean developer portfolio.
+Deployed on Vercel with automatic deployments connected to the main branch.
 
 ---
 
-# 📄 License
+## License
 
 MIT License © 2026 Vansh Tejnani
