@@ -2,7 +2,7 @@
 
 <img width="1200" height="450" alt="Portfolio Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 
-# Vansh Tiwari · Portfolio
+# Vansh Tejnani · Portfolio
 
 > Modern interactive developer portfolio built with React, Three.js, Motion, and Tailwind CSS.
 
@@ -26,17 +26,19 @@
 A modern portfolio experience designed to showcase my projects, frontend engineering skills, and creative web development work through immersive visuals, fluid interactions, and responsive design.
 
 Built with a focus on:
+
 - performance
 - smooth user experience
 - modern UI aesthetics
 - interactive visuals
 - scalable frontend architecture
+- liquid glass effects
 
 ---
 
 # 🚀 Features
 
-- 🎨 Modern responsive UI
+- 🎨 Liquid Glass UI
 - ⚡ Smooth scrolling with Lenis
 - 🌌 Interactive 3D graphics
 - ✨ Motion-powered animations
@@ -67,7 +69,86 @@ Built with a focus on:
 ```bash
 src/
 ├── components/
+│   ├── Background.tsx
+│   ├── LegalModal.tsx
+│   ├── Section.tsx
+│   └── SmoothScroll.tsx
+│
 ├── lib/
+│   └── utils.ts
+│
 ├── App.tsx
 ├── main.tsx
 └── index.css
+```
+
+---
+
+# ⚡ Quick Start
+
+## Clone the repository
+
+```bash
+git clone https://github.com/vansht04/website.git
+```
+
+## Navigate into the project
+
+```bash
+cd website
+```
+
+## Install dependencies
+
+```bash
+npm install
+```
+
+## Start development server
+
+```bash
+npm run dev
+```
+
+Open:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+# 📦 Build
+
+```bash
+npm run build
+npm run preview
+```
+
+---
+
+# 🌍 Deployment
+
+Deployed on **Vercel** with automatic deployments connected to the main branch.
+
+---
+
+# 📸 Preview
+
+<div align="center">
+
+<img width="100%" alt="Portfolio Preview" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+</div>
+
+---
+
+# 🧠 Inspiration
+
+This portfolio was built to blend modern frontend engineering with immersive digital experiences — combining smooth interactions, motion design, and interactive visuals into a clean developer portfolio.
+
+---
+
+# 📄 License
+
+MIT License © 2026 Vansh Tejnani
