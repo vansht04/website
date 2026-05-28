@@ -1,12 +1,12 @@
 <div align="center">
 
-# Vansh Tejnani · Portfolio
+# ✦ Vansh Tejnani · Portfolio ✦
 
-> Modern interactive developer portfolio built with React, Three.js, Motion, and Tailwind CSS.
+> ✨ Liquid glass themed portfolio built with React, Three.js, Motion, and Tailwind CSS
 
-### ✦ Smooth Animations · ✦ Interactive 3D · ✦ Modern UI/UX
+### 🌊 Liquid Glass UI · 🎮 Interactive 3D · ⚡ Smooth Motion
 
-**Live Website →** https://vansht.vercel.app/
+**🚀 Live →** https://vansht.vercel.app/
 
 <br/>
 
@@ -19,50 +19,43 @@
 
 ---
 
-# ✨ About
+## 🌌 About
 
-A modern portfolio experience designed to showcase my projects, frontend engineering skills, and creative web development work through immersive visuals, fluid interactions, and responsive design.
+A personal portfolio built around a **liquid glass aesthetic** — soft blur, depth, transparency, and motion.
 
-Built with a focus on:
+It’s designed to feel less like a static resume and more like an interactive space where projects live.
 
-- performance
-- smooth user experience
-- modern UI aesthetics
-- interactive visuals
-- scalable frontend architecture
-- liquid glass effects
+Minimal, but not boring.
 
 ---
 
-# 🚀 Features
+## ✨ Features
 
-- 🎨 Liquid Glass UI
-- ⚡ Smooth scrolling with Lenis
-- 🌌 Interactive 3D graphics
-- ✨ Motion-powered animations
-- 📱 Mobile-first experience
-- 🧩 Reusable component architecture
-- 🎯 Optimized performance
-- 🌙 Clean and minimal design
-
----
-
-# 🛠 Tech Stack
-
-| Layer | Technology |
-|-------|------------|
-| Frontend | React 19 |
-| Build Tool | Vite 6 |
-| Language | TypeScript |
-| Styling | Tailwind CSS 4 |
-| Animations | Motion + Lenis |
-| 3D Graphics | Three.js + React Three Fiber |
-| Icons | Lucide React |
-| Deployment | Vercel |
+- 🫧 Liquid glass UI with layered depth & blur
+- 🌊 Smooth scrolling experience
+- 🎮 Interactive 3D elements
+- 🎞 Motion-driven animations
+- 📱 Fully responsive design
+- 🧩 Clean component-based structure
+- ⚡ Lightweight & performance focused
 
 ---
 
-# 📂 Project Structure
+## 🛠 Tech Stack
+
+| Layer | Tech |
+|------|------|
+| ⚛️ Frontend | React 19 |
+| ⚡ Build Tool | Vite |
+| 🟦 Language | TypeScript |
+| 🎨 Styling | Tailwind CSS |
+| 🎞 Animation | Motion + Lenis |
+| 🌐 3D | Three.js + React Three Fiber |
+| 🚀 Deploy | Vercel |
+
+---
+
+## 📂 Project Structure
 
 ```bash
 src/
@@ -73,8 +66,6 @@ src/
 │   └── SmoothScroll.tsx
 │
 ├── lib/
-│   └── utils.ts
-│
 ├── App.tsx
 ├── main.tsx
 └── index.css
@@ -82,41 +73,20 @@ src/
 
 ---
 
-# ⚡ Quick Start
-
-## Clone the repository
+## ⚡ Run Locally
 
 ```bash
 git clone https://github.com/vansht04/website.git
-```
-
-## Navigate into the project
-
-```bash
 cd website
-```
-
-## Install dependencies
-
-```bash
 npm install
-```
-
-## Start development server
-
-```bash
 npm run dev
 ```
 
-Open:
-
-```bash
-http://localhost:3000
-```
+📍 Open: `http://localhost:3000`
 
 ---
 
-# 📦 Build
+## 📦 Build
 
 ```bash
 npm run build
@@ -125,13 +95,7 @@ npm run preview
 
 ---
 
-# 🌍 Deployment
-
-Deployed on **Vercel** with automatic deployments connected to the main branch.
-
----
-
-# 📸 Preview
+## 🖼 Preview
 
 <div align="center">
 
@@ -141,12 +105,16 @@ Deployed on **Vercel** with automatic deployments connected to the main branch.
 
 ---
 
-# 🧠 Inspiration
+## 🧠 Inspiration
 
-This portfolio was built to blend modern frontend engineering with immersive digital experiences — combining smooth interactions, motion design, and interactive visuals into a clean developer portfolio.
+Inspired by modern **glassmorphism**, experimental UI design, and motion-first web experiences.
+
+The goal was simple:
+
+> build something that feels smooth, light, and a little alive ✨
 
 ---
 
-# 📄 License
+## 📄 License
 
 MIT License © 2026 Vansh Tejnani
