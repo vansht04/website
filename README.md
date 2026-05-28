@@ -111,7 +111,7 @@ Inspired by modern **liquid glass**, experimental UI design, and motion-first we
 
 The goal was simple:
 
-> build something that no one has ever built
+> Build something that no one has ever seen
 
 ---
 
