@@ -222,7 +222,7 @@ function Hero({ isDark }: { isDark: boolean }) {
             "px-4 py-1.5 rounded-full text-[10px] uppercase tracking-[0.3em] font-bold border transition-all duration-500",
             isDark ? "border-white/10 bg-white/5" : "border-black/5 bg-black/5"
           )}>
-            One & Only
+            The Greatest
           </span>
         </motion.div>
         
