@@ -210,8 +210,18 @@ function Hero({ isDark }: { isDark: boolean }) {
   const opacity = useTransform(scrollYProgress, [0, 0.4], [1, 0]);
 
   return (
-    <div ref={containerRef} className="relative h-[110vh] flex flex-col items-center justify-center text-center px-6 overflow-hidden">
-      <motion.div style={{ y, opacity }} className="relative z-10 w-full max-w-4xl">
+  <div ref={containerRef} className="relative h-[110vh] flex flex-col items-center justify-center text-center px-6 overflow-hidden">
+
+    {/* 👇 ADD THIS HERE */}
+    <h1 style={{ position: "absolute", left: "-9999px" }}>
+      Vansh Tejnani
+    </h1>
+
+    <p style={{ position: "absolute", left: "-9999px" }}>
+      Software Engineer specializing in Full-Stack Development, AI systems, and modern web applications.
+    </p>
+
+    <motion.div style={{ y, opacity }} className="relative z-10 w-full max-w-4xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
