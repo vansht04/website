@@ -231,9 +231,9 @@ function Hero({ isDark }: { isDark: boolean }) {
           <span className={cn(
             "px-4 py-1.5 rounded-full text-[10px] lowercase tracking-[0.3em] font-bold border transition-all duration-500",
             isDark ? "border-white/10 bg-white/5" : "border-black/5 bg-black/5"
+            // ⌘ FLOW STATE ⌘ (optional tagline just in case)
           )}>
             i code a lot
-            // ⌘ FLOW STATE ⌘
           </span>
         </motion.div>
         
