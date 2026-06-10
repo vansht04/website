@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✦ Vansh Tejnani · Portfolio ✦
+# Vansh Tejnani · Portfolio
 
 > ✨ Liquid glass themed portfolio built with React, Three.js, Motion, and Tailwind CSS
 
