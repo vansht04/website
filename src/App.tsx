@@ -101,7 +101,7 @@ const experience = [
     company: "The Royal Canadian Legion · Internship",
     period: "2026 - Present",
     location: "Ottawa, ON · Remote",
-    desc: "Incoming Summer 26'."
+    desc: "Developing a membership platform with secure access and personalized content."
   },
   {
     role: "Software Engineer",
