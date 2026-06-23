@@ -27,33 +27,33 @@ Minimal, but not boring.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🫧 Liquid glass UI with layered depth & blur
-- 🌊 Smooth scrolling experience
-- 🎮 Interactive 3D elements
-- 🎞 Motion-driven animations
-- 📱 Fully responsive design
-- 🧩 Clean component-based structure
-- ⚡ Lightweight & performance focused
+- Liquid glass UI with layered depth & blur
+- Smooth scrolling experience
+- Interactive 3D elements
+- Motion-driven animations
+- Fully responsive design
+- Clean component-based structure
+- Lightweight & performance focused
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Tech |
 |------|------|
-| ⚛️ Frontend | React 19 |
-| ⚡ Build Tool | Vite |
-| 🟦 Language | TypeScript |
-| 🎨 Styling | Tailwind CSS |
-| 🎞 Animation | Motion + Lenis |
-| 🌐 3D | Three.js + React Three Fiber |
-| 🚀 Deploy | Vercel |
+| Frontend | React 19 |
+| Build Tool | Vite |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Animation | Motion + Lenis |
+| 3D | Three.js + React Three Fiber |
+| Deploy | Vercel |
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 src/
@@ -71,7 +71,7 @@ src/
 
 ---
 
-## ⚡ Run Locally
+## Run Locally
 
 ```bash
 git clone https://github.com/vansht04/website.git
@@ -80,11 +80,11 @@ npm install
 npm run dev
 ```
 
-📍 Open: `http://localhost:3000`
+Open: `http://localhost:3000`
 
 ---
 
-## 📦 Build
+## Build
 
 ```bash
 npm run build
@@ -93,7 +93,7 @@ npm run preview
 
 ---
 
-## 🖼 Preview
+## Preview
 
 <div align="center">
 
@@ -103,7 +103,7 @@ npm run preview
 
 ---
 
-## 🧠 Inspiration
+## Inspiration
 
 Inspired by modern **liquid glass**, experimental UI design, and motion-first web experiences.
 
