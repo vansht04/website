@@ -233,7 +233,7 @@ function Hero({ isDark }: { isDark: boolean }) {
             isDark ? "border-white/10 bg-white/5" : "border-black/5 bg-black/5"
             // ⌘ FLOW STATE ⌘ (optional tagline just in case)
           )}>
-            Hire Me
+            Hire Me!
           </span>
         </motion.div>
         
