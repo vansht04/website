@@ -106,7 +106,7 @@ const experience = [
   {
     role: "Software Engineer",
     company: "Learncapes Consulting Inc · Internship",
-    period: "2026 - Present",
+    period: "2026",
     location: "Markham, ON · Remote",
     desc: "Building an Augmented Reality app for interactive product visualization with 3D models."
   },
