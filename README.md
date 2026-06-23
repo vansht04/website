@@ -2,11 +2,9 @@
 
 # Vansh Tejnani · Portfolio
 
-> Liquid glass themed portfolio built with React, Three.js, Motion, and Tailwind CSS
-
 ### Liquid Glass UI · Interactive · Smooth Motion
 
-**Live →** https://vansht.vercel.app/
+**Check It Out →** https://vansht.vercel.app/
 
 <br/>
 
