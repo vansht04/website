@@ -97,6 +97,13 @@ const projects = [
 
 const experience = [
   {
+    role: "Machine Learning Engineer",
+    company: "FlyRank AI · Internship",
+    period: "2026 - Present",
+    location: "Toronto, ON · Remote",
+    desc: "Building a real predictive model on real data."
+  },
+  {
     role: "Software Developer",
     company: "The Royal Canadian Legion · Internship",
     period: "2026",
