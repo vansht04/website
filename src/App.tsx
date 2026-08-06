@@ -111,6 +111,13 @@ const experience = [
     desc: "Developing a membership platform with secure access and personalized content."
   },
   {
+    role: "Project Lead",
+    company: "Riipen · Internship",
+    period: "2026",
+    location: "Halifax, NS · Remote",
+    desc: "Led a product research initiative, analyzing user workflows and recommendation systems to deliver data-driven UX, onboarding, and personalization improvements."
+  },
+  {
     role: "Software Engineer",
     company: "Learncapes Consulting Inc · Internship",
     period: "2026",
