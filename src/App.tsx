@@ -487,7 +487,7 @@ export default function App() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
               {[
-                { label: "Direct", title: "Email", href: "mailto:vanshbt@gmail.com", icon: <Mail className="w-4 h-4" /> },
+                { label: "Direct", title: "Email", href: "mailto:vansht@my.yorku.ca", icon: <Mail className="w-4 h-4" /> },
                 { label: "Global", title: "LinkedIn", href: "https://www.linkedin.com/in/vansht/", icon: <Linkedin className="w-4 h-4" /> },
                 { label: "Source", title: "GitHub", href: "https://github.com/vansht04", icon: <Github className="w-4 h-4" /> }
               ].map((item, i) => (
