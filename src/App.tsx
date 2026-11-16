@@ -9,6 +9,7 @@ import {
   ChevronDown,
   Layout,
   Globe,
+  Bot,
   Sun,
   Moon,
   ChevronRight,
@@ -33,9 +34,9 @@ const projects = [
     title: "Agent Town",
     category: "Python, FastAPI, WebSockets, Shopify API, OpenAI API",
     description: "A dynamic 2D AI-driven world populated by autonomous agents that think, remember, and evolve. Powered by the OpenAI API, agents independently make decisions, form complex relationships, negotiate transactions, and influence a shared virtual economy, while Shopify's Global Catalog API brings real-world products into the in-game marketplace.",
-    icon: <Globe className="w-5 h-5" />,
+    icon: <Bot className="w-5 h-5" />,
     color: "from-blue-500/20 to-cyan-500/20",
-    link: "https://github.com/alavi-sam/agents-town"
+    link: "https://www.agentstown.vip/"
   },
   {
     title: "York Return",
@@ -43,7 +44,7 @@ const projects = [
     description: "York's most secure Lost & Found app made with React and Firebase, featuring Google OAuth, real-time updates, and synchronized data across multiple users.",
     icon: <Globe className="w-5 h-5" />,
     color: "from-blue-500/20 to-cyan-500/20",
-    link: "https://github.com/vansht04/York-Return"
+    link: "https://www.yorkreturn.wiki/"
   },
   {
     title: "MyAI",
