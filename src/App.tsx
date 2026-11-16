@@ -32,7 +32,7 @@ const projects = [
   {
     title: "York Return",
     category: "React, TypeScript, Firebase, Google OAuth",
-    description: "York's most secure Lost & Found app made with React and Firebase, featuring Google login, real-time updates, and synchronized data across multiple users.",
+    description: "York's most secure Lost & Found app made with React and Firebase, featuring Google OAuth, real-time updates, and synchronized data across multiple users.",
     icon: <Globe className="w-5 h-5" />,
     color: "from-blue-500/20 to-cyan-500/20",
     link: "https://github.com/vansht04/York-Return"
