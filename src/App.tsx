@@ -33,7 +33,7 @@ const projects = [
   {
     title: "Agent Town",
     category: "Python, FastAPI, WebSockets, Shopify API, OpenAI API",
-    description: "A dynamic 2D AI-driven world populated by autonomous agents that think, remember, and evolve. Powered by the OpenAI API, agents independently make decisions, form complex relationships, negotiate transactions, and influence a shared virtual economy, while Shopify's Global Catalog API brings real-world products into the in-game marketplace.",
+    description: "Built at Hack The North 2026, a dynamic 2D AI-driven world populated by autonomous agents that think, remember, and evolve. Powered by the OpenAI API, agents independently make decisions, form complex relationships, negotiate transactions, and influence a shared virtual economy, while Shopify's Global Catalog API brings real-world products into the in-game marketplace.",
     icon: <Bot className="w-5 h-5" />,
     color: "from-blue-500/20 to-cyan-500/20",
     link: "https://www.agentstown.vip/"
@@ -52,7 +52,7 @@ const projects = [
     description: "An AI-powered workflow automation platform that integrates conversational intelligence, personalized recommendations, and real-time productivity tools to streamline user interactions.",
     icon: <Cpu className="w-5 h-5" />,
     color: "from-purple-500/20 to-pink-500/20",
-    link: "https://github.com/vansht04/MyAI---Personal-AI-Chatbot"
+    link: "https://github.com/vansht04/MyAI"
   },
   {
     title: "Relocate Right",
@@ -60,7 +60,7 @@ const projects = [
     description: "A location recommendation system for 300+ entries using a weighted scoring model and SQL database to support ranked search results and filtering logic.",
     icon: <House className="w-5 h-5" />,
     color: "from-orange-500/20 to-red-500/20",
-    link: "https://github.com/vansht04/Relocate-Right---Full-Stack-Location-Recommendation-App"
+    link: "https://github.com/vansht04/Relocate-Right"
   },
   {
     title: "BloomLoop",
@@ -68,7 +68,7 @@ const projects = [
     description: "BloomLoop is a habit tracking app with dashboards, streak tracking, and progress visualization.",
     icon: <Flower className="w-5 h-5" />,
     color: "from-orange-500/20 to-red-500/20",
-    link: "https://github.com/vansht04/BloomLoop---Social-Habit-Tracking-App"
+    link: "https://github.com/vansht04/BloomLoop"
   },
   {
     title: "Active+",
@@ -108,7 +108,7 @@ const experience = [
   {
     role: "Machine Learning Engineer",
     company: "FlyRank AI · Internship",
-    period: "2026 - Present",
+    period: "2026",
     location: "Toronto, ON · Remote",
     desc: "Building a real predictive model on real data."
   },
@@ -117,7 +117,7 @@ const experience = [
     company: "The Royal Canadian Legion · Internship",
     period: "2026",
     location: "Ottawa, ON · Remote",
-    desc: "Developing a membership platform with secure access and personalized content."
+    desc: "Developed a membership platform with secure access and personalized content."
   },
   {
     role: "Project Lead",
@@ -131,7 +131,7 @@ const experience = [
     company: "Learncapes Consulting Inc · Internship",
     period: "2026",
     location: "Markham, ON · Remote",
-    desc: "Building an Augmented Reality app for interactive product visualization with 3D models."
+    desc: "Built an Augmented Reality app for interactive product visualization with 3D models."
   },
   {
     role: "Technical Lead",
@@ -391,7 +391,7 @@ export default function App() {
                 <span className="section-label">Selected Works</span>
                 <h2 className="text-6xl md:text-8xl font-bold tracking-tighter">PROJECTS</h2>
               </div>
-              <div className="text-xs font-bold opacity-30 tracking-[0.2em]">01 — 08</div>
+              <div className="text-xs font-bold opacity-30 tracking-[0.2em]">01 — 09</div>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
