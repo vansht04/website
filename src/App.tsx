@@ -429,6 +429,19 @@ export default function App() {
                 </motion.a>
               ))}
             </div>
+
+            <div className="mt-12 text-center text-sm opacity-50">
+              Explore more projects,{" "}
+              <a
+                href="https://github.com/vansht04"
+                target="_blank"
+                rel="noreferrer"
+                className="font-semibold text-white opacity-80 hover:opacity-100 hover:underline underline-offset-4 transition-all"
+              >
+                visit my GitHub
+                <ArrowUpRight className="inline w-3 h-3 ml-1" />
+              </a>
+            </div>
           </Section>
 
           <Section id="experience" className="grid grid-cols-1 md:grid-cols-2 gap-20 py-40 overflow-hidden">
